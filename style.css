@@ -1,0 +1,249 @@
+body{
+background-color: white;
+}
+.basket{
+    width: 151px;
+    height: 50px;
+    background-image: url("img/icons8-shopping-cart-80.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: lavenderblush;
+    border: 1px solid lavender;
+    margin-left: 50px;
+
+
+}
+.nav-categories{
+    list-style: none;
+    margin:-2px 0 0 50px;
+    padding:0;
+    width: 150px;
+    border-left: 1px solid lavender;
+    border-right: 1px solid lavender;
+    border-bottom: 1px solid lavender;
+    background-color:  lavenderblush;
+
+
+}
+.nav-list{
+    border-top: 1px solid lavender;
+    text-align: center;
+    position:relative;
+    cursor: pointer;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color:darkgray;
+    display: block;
+    padding: 10px 45px;
+    box-sizing: border-box;
+}
+.dropdown{
+    position:absolute;
+    left: 150px;
+    top:-1px;
+    width: 150px;
+    list-style: none;
+    margin:0;
+    padding:0;
+    background-color:  lavenderblush;
+    border-left: 1px solid lavender;
+    border-right: 1px solid lavender;
+    border-bottom: 1px solid lavender;
+    display: none;
+}
+.drop-list{
+    border-top: 1px solid lavender;
+    padding:10px;
+    text-align: center;
+    position:relative;
+    width: 150px;
+    background-color:  lavenderblush;
+
+}
+.drop-link{
+    color: darkgray;
+    display: block;
+    padding: 10px 45px;
+    box-sizing: border-box;
+}
+
+.dropdown2{
+    position: absolute;
+    left: 170px;
+    top:-1px;
+    width: 300px;
+    height: 300px;
+    background-color: lavenderblush;
+    border: 1px solid lavender;
+    padding: 40px;
+    box-sizing: border-box;
+    display: none;
+}
+p{
+    color: darkgray;
+    margin-bottom: 40px;
+}
+
+.active{
+    color:black;
+
+}
+.massage
+{
+    position: absolute;
+    top:30px;
+    right: 65px;
+    background-color: lavenderblush;
+    border: 1px solid lavender;
+    display: none;
+}
+.message-text{
+    color: darkgray;
+    padding: 10px 40px 0 40px;
+}
+.ok{
+    display: block;
+    margin: 0 auto;
+
+}
+
+form{
+
+    width: 700px;
+    padding: 40px 60px;
+    margin:0 auto;
+    height: 100%;
+    background: lavenderblush;
+    border: 2px solid lavender;
+    border-radius: 10px;
+    z-index: 2;
+    display:none;
+}
+
+.question,
+legend
+{
+    display:inline-block;
+    color: #969;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.required,
+.select-city,
+.select-payment,
+.select,
+.text
+{
+    color:#663366;
+    background:#ffffff;
+    border-radius: 10px;
+    border: 1px solid #663366;
+    width:100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.form-wrap{
+    color:black;
+    border:none;
+    padding:0;
+    margin:10px 0;
+}
+
+.btn-submit{
+    width: 150px;
+    height: 52px;
+    border-radius: 5px;
+    border: 2px solid #663366;
+    background: #663366;
+    color: white;
+    font: 500 18px/26px 'Rubik', sans-serif;
+    margin: 30px;
+
+}
+.btn-submit:hover{
+    background: white;
+    color: #663366;
+    box-shadow: 0 0 4px 2px #663366;
+}
+small
+{
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-style: italic;
+}
+.error{
+    border:1px solid red;
+}
+
+
+
+.tasks{
+    list-style: none;
+    padding: 0;
+    border-left: 1px solid lavender;
+    border-right: 1px solid lavender;
+    background-color: lavenderblush;
+    top:-7px;
+    left:220px;
+    position :absolute;
+    display: none;
+}
+.basket-li{
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    width: 300px;
+}
+.basket-list{
+    text-decoration: none;
+    color: darkgray;
+    display: block;
+    padding: 19px 45px;
+    box-sizing: border-box;
+
+}
+.inside-Ul{
+    position: absolute;
+    left: 150px;
+    top: -1px;
+    width: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.inside-li{
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top:0;
+    left:150px;
+    width: 315px;
+    background-color: lavenderblush;
+    color: darkgray;
+}
+.del{
+    display:block;
+    width: 30px;
+    height: 30px;
+    background-image: url("img/delete.png");
+    position:absolute;
+    top:13px;
+    right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.has-drop{
+    display: block;
+}
+.has-hide{
+    display:none;
+}
